@@ -15,6 +15,7 @@ app.use("/admin", adminRoute);
 app.use("/arts", artRouter);
 app.use("/comments", commentRoute);
 
+
 app.get("/", (req, res) => {
     res.status(200).send("Welcome to Home Page.")
 })
